@@ -1,0 +1,44 @@
+.container {
+  height: 50dvh;
+  width: 60dvw;
+  background-color: #7fffd5;
+  font-size: 5rem;
+  text-align: center;
+  margin: 10rem auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    background-color: #208b21;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    background-color: #b1882f;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-color: #75fbfd;
+    font-size: 5rem;
+    text-align: center;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    background-color: #ca3142;
+    font-size: 6rem;
+    text-align: center;
+    font-weight: bold;
+    width: 100vh;
+  }
+}
